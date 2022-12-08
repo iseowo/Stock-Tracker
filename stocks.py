@@ -17,7 +17,8 @@ st.markdown('''
 
 # Date information
 today = datetime.date.today()
-yesterday = today - timedelta(days=3)
+#yesterday = today - timedelta(days=3)
+yesterday = today - timedelta(days=1)
 
 # Ticker input 
 st.subheader('Please your favourite tickers')
